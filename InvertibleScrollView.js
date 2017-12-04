@@ -69,13 +69,13 @@ let InvertibleScrollView = createReactClass({
 
 let styles = StyleSheet.create({
   verticallyInverted: {
-    flex: 1,
+//     flex: 1,
     transform: [
       { scaleY: -1 },
     ],
   },
   horizontallyInverted: {
-    flex: 1,
+//     flex: 1,
     transform: [
       { scaleX: -1 },
     ],
